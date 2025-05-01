@@ -1,0 +1,9 @@
+Input: [-8, -3, 2, 4, 12]
+   L                             R
+  |-8| | -3 | 2 | 4 | 12 |
+  
+Compare abs(L) vs abs(R): 8 vs 12 → square 12 → place at end
+Move R inward
+
+Next compare 8 vs 4 → square 8 → place next
+Repeat until pointers cross
